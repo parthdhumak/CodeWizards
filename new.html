@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="1000147890-removebg.png">
+    <title>KindLink</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="new.css">
+    <style>
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+        }
+
+        body {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif; /* Consistent font family */
+            color: #333; /* Default text color */
+            margin: 0;
+            padding: 0;
+        }
+
+        .head {
+            margin-top: 5px;
+            padding: 10px;
+            border: 5px solid #48a100be;
+            display: flex;
+            justify-content: center;
+            background-color: #ffffff; /* Background color for the head section */
+        }
+
+        .header {
+            padding: 20px; /* Padding for spacing */
+            text-align: center; /* Center text */
+        }
+
+        nav {
+            background-color: #333; /* Background color for the navigation */
+            padding: 10px 20px; /* Padding for spacing */
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Align items to left and right */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for better visual separation */
+        }
+
+        .nav-logo img {
+            height: 50px; /* Adjust height as needed */
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links ul {
+            list-style: none; /* Remove default list styling */
+            display: flex; /* Display list items horizontally */
+            margin: 0;
+            padding: 0;
+            gap: 15px; /* Space between list items */
+        }
+
+        .nav-links li {
+            margin: 0; /* Remove margin from list items */
+        }
+
+        .nav-links a {
+            color: white; /* Text color */
+            text-decoration: none; /* Remove underline */
+            font-size: 16px; /* Font size for links */
+            padding: 8px 12px; /* Padding for links */
+            display: inline-block; /* Ensure padding is applied correctly */
+            transition: color 0.3s, background-color 0.3s; /* Smooth transition for hover effects */
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline; /* Underline on hover */
+            color: #48a100; /* Change text color on hover */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #3e8e41;
+        }
+
+        #upload-btn {
+            margin-top: 20px;
+        }
+
+        #about {
+            background-color: #f7f7f7;
+        }
+
+        #contact ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #contact li {
+            margin-bottom: 10px;
+        }
+
+        #contact i {
+            margin-right: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column; /* Stack nav items vertically on smaller screens */
+                align-items: stretch; /* Stretch items to fill available space */
+            }
+
+            .nav-links ul {
+                flex-direction: column; /* Stack menu items vertically */
+                align-items: center; /* Center navigation items */
+            }
+
+            .nav-links li {
+                margin: 10px 0; /* Adjust margin for vertical alignment */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="head">
+        <img src="WhatsApp Image 2024-09-14 at 10.33.12.jpg" height="70px" alt="KindLink Logo"> <!-- Added alt attribute -->
+    </section>
+
+    <section class="header">
+        <!-- Content for header section can be added here -->
+    </section>
+
+    <nav>
+        <div class="nav-logo">
+            <img src="WhatsApp Image 2024-09-14 at 10.33.12.jpg" alt="Logo"> <!-- Replace with your logo image -->
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <!-- <li><a href="#">EVENTS</a></li> -->
+              <!-- <li><a href="#">NEWS</a></li> -->
+                <li><a href="news1.html">NEW</a></li>
+                <li><a href="donate.html">DONATE</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="kindLINK.html">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- The main container element -->
+    <div class="container">
+        <!-- Section 1: Introduction -->
+        <section id="intro">
+            <h1>Welcome to  kindlink</h1>
+            <p>Share your social work experiences with us!</p>
+            <p>If you've done any social work, share a picture of it with us and inspire others!</p>
+            
+        </section>
+
+        <!-- Section 2: About Us -->
+        <section id="about">
+            <h1>About Us</h1>
+            <p>We are a team of social workers dedicated to making a positive impact in our community.</p>
+            <p>Our mission is to provide a platform for individuals to share their social work experiences and inspire others to do the same.</p>
+        </section>
+
+        <!-- Section 3: Contact Us -->
+        <section id="contact">
+            <h1>Get in Touch</h1>
+            <p>Have any questions or want to get involved? Contact us!</p>
+            <ul>
+                <li><i class="fa fa-phone"></i> +1 123 456 7890</li>
+                <li><i class="fa fa-envelope"></i> <a href="mailto:info@socialworkhub.com">info@socialworkhub.com</a></li>
+                <li><i class="fa fa-map-marker"></i> 123 Main St, Anytown, USA</li>
+            </ul>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 kindlink. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        // Add an event listener to the upload button
+        document.getElementById('upload-btn').addEventListener('click', function() {
+            // TO DO: Add functionality to upload a picture
+            alert('Upload functionality not implemented yet!');
+        });
+    </script>
+</body>
+
+</html>

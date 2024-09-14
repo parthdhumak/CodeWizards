@@ -1,0 +1,70 @@
+[13:49, 14/09/2024] Rugvedi SJCEM: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="kind.css">
+    <style>
+        .intract {
+            margin: 15px;
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #b1, #b2, #b3 {
+            background-color: lightblue;
+            border: 5px solid grey;
+            border-radius: 20%;
+            height: 60px;
+            width: 200px;
+            font-size: large;
+        }
+        .profile-gallery {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body background="dog.jpg">
+    <div class="container">
+        <header class="profile-header">
+            <div class="profile-picture-container">
+                <img src="profile.png" alt="Profile Picture" class="profile-picture" id="profilePicture">
+                <input type="file" id="fileInput" style="display: none;">
+            </div>
+            <div class="profile-details">
+                <h1 style="color: rgb(10, 70, 119);">USERNAME</h1>
+                <p class="bio">love to social work</p>
+            </div>
+        </header>
+        <section class="profile-info">
+            <div class="intract">
+                <button id="b1">COMMUNITY</button>
+                <button id="b2">LINK</button>
+                <button id="b3">MESSAGE</button>
+            </div>
+            <h2>Contact Information</h2>
+            <ul>
+                <li><strong>Email:</strong> username@example.com</li>
+                <li><strong>Phone:</strong>123***</li>
+                <li><strong>Location:</strong>Maharashtra,INDIA</li>
+            </ul>
+        </section>
+        <section class="profile-gallery">
+            <img src="grid.png" alt="" height="100px" width="100px" class="gallery-img">
+            <img src="add-post.png" alt="" height="100px" width="100px" class="gallery-img">
+            <img src="more.png" alt="" height="100px" width="100px" class="gallery-img">
+        </section>
+        <section class="profile-bio">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+        </section>
+    </div>
+
+
+    
+</body>
+</html>
+[13:50, 14/09/2024] Rugvedi SJCEM: /* Reset some default styles */

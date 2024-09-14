@@ -1,0 +1,112 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-picture-container {
+    flex: 0 0 150px;
+    margin-right: 20px;
+}
+
+.profile-picture {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #3498db;
+}
+
+.profile-details {
+    flex: 1;
+}
+
+.profile-details h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #333;
+}
+
+.profession {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.profile-info, .profile-gallery, .profile-bio {
+    margin-bottom: 20px;
+}
+
+.profile-info h2, .profile-gallery h2, .profile-bio h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.profile-info ul {
+    list-style: none;
+}
+
+.profile-info li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.profile-info li:last-child {
+    border-bottom: none;
+}
+
+.profile-info strong {
+    color: #3498db;
+}
+
+.profile-gallery {
+    text-align: center;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+
+.profile-bio p {
+    font-size: 1em;
+    color: #555;
+}

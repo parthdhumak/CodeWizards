@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate for Social Welfare</title>
+    <link rel="stylesheet" href="donate.css">
+</head>
+<body>
+    <header>
+        <img src="https://img.freepik.com/premium-photo/poor-beggar-hungry-smiling-black-child-africa-thirsty-drink-water-from-plastic-bottle_642829-7319.jpg" alt="Child in Need" class="header-image">
+        <div class="header-text">
+            <h1>Support Social Welfare</h1>
+            <p>Your donation makes a difference!</p>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Make a Donation</h2>
+            <form id="donationForm">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="amount">Donation Amount ($):</label>
+                <input type="number" id="amount" name="amount" min="1" required>
+
+                <label for="message">Message (optional):</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit">Donate Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; KindLink. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

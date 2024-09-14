@@ -1,0 +1,162 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+}
+
+body {
+    background-image: "https://wallpaperaccess.com/full/1393522.jpg";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif; /* Consistent font family */
+    color: #333; /* Default text color */
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    margin-top: 5px;
+    padding: 10px;
+    border: 5px solid #48a100be;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff; /* Background color for the head section */
+}
+
+.header {
+    padding: 20px; /* Padding for spacing */
+    text-align: center; /* Center text */
+}
+
+nav {
+    background-color: #333; /* Background color for the navigation */
+    padding: 10px 20px; /* Padding for spacing */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items to left and right */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for better visual separation */
+}
+
+.nav-logo img {
+    height: 50px; /* Adjust height as needed */
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links ul {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Display list items horizontally */
+    margin: 0;
+    padding: 0;
+    gap: 15px; /* Space between list items */
+}
+
+.nav-links li {
+    margin: 0; /* Remove margin from list items */
+}
+
+.nav-links a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size for links */
+    padding: 8px 12px; /* Padding for links */
+    display: inline-block; /* Ensure padding is applied correctly */
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition for hover effects */
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #48a100; /* Change text color on hover */
+}
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #faf8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(25, 25, 25);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#upload-btn {
+    margin-top: 20px;
+}
+
+#about {
+    background-color: #f7f7f7;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contact li {
+    margin-bottom: 10px;
+}
+
+#contact i {
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Stack nav items vertically on smaller screens */
+        align-items: stretch; /* Stretch items to fill available space */
+    }
+
+    .nav-links ul {
+        flex-direction: column; /* Stack menu items vertically */
+        align-items: center; /* Center navigation items */
+    }
+
+    .nav-links li {
+        margin: 10px 0; /* Adjust margin for vertical alignment */
+    }
+}
